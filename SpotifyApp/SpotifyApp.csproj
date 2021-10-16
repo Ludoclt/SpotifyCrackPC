@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
+    <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationIcon>Spotify.ico</ApplicationIcon>
+    <AssemblyName>Spotify</AssemblyName>
+    <Authors>Ludoclt</Authors>
+    <Product>SpotifyApp</Product>
+    <Copyright>Ludoclt</Copyright>
+    <PackageId>SpotifyApp</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SpotifyApp.bak" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="SpotifyApp.bak" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SpotifyCrack">
+      <HintPath>..\SpotifyCrack\bin\Release\net48\SpotifyCrack.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

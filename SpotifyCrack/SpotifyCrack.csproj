@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
+    <Copyright>Ludoclt</Copyright>
+    <Authors>Ludoclt</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mono.Cecil" Version="0.11.4" />
+  </ItemGroup>
+
+</Project>
