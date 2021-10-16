@@ -6,7 +6,7 @@ Here is a small tool that automatically updates the ads blocking crack with each
 
 ## **Installation**
 
-Just Extract the three files downloaded from [here](https://github.com/Ludoclt/SpotifyCrack-PC/releases) in %appdata%/Spotify (Win + R and paste the Path).
+Just Extract the three files downloaded from [here](https://github.com/Ludoclt/SpotifyCrack-PC/releases) in **%appdata%/Spotify** (Win + R and paste the Path).
 
 ## **Help**
 
