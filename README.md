@@ -14,7 +14,7 @@ Just Extract the files downloaded from [here](https://github.com/Ludoclt/Spotify
 
 - .NET Framework can be required.
 
-- If the ads come back, just restart Spotify.
+- If the ads come back, just restart Spotify. In the extreme case, reinstall the crack.
 
 ## **Credits**
 
